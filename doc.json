@@ -1,0 +1,38 @@
+{
+    "details":[
+    {
+        "field1": "bar",
+        "field2": 1,
+        "field3": true,
+        "field4": [1, 2, 3],
+        "field5": {
+          "nested": {
+            "other": [4, 5]
+            }
+        }
+    },
+    {
+        "field1": "bar2",
+        "field2": 1,
+        "field3": false,
+        "field4": [2, 3, 4],
+        "field5": {
+          "nested": {
+            "other": [5, 6]
+            }
+        }
+    }, 
+    {
+        "field1": "bar1",
+        "field2": 1,
+        "field3": true,
+        "field4": [1, 2, 4],
+        "field5": {
+          "nested": {
+            "other": [4, 6]
+            }
+        }
+    } 
+]
+
+}
